@@ -1,0 +1,27 @@
+version: 0.2
+
+run-as: Linux-project-user-at-891377350487
+
+phases:
+  # install:
+  #   runtime-versions:
+  #     java: 
+   build:
+    run-as: Linux-project-user-at-891377350487
+    on-failure: ABORT 
+    commands:
+      - sudo yum update
+      - sudo yum install java-17-corretto-headless
+      - mvn clean install 
+    
+  
+
+artifacts:
+  files:
+    - target/*.jar
+    - scripts/*.sh
+    - appsec.yml
+  name: artifact-name
+  discard-paths: yes
+  
+  
