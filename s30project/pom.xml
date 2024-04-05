@@ -36,11 +36,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- <dependency>
+		<dependency>
 			<groupId>net.codejava</groupId>
 			<artifactId>RestApiValidationExamples</artifactId>
 			<version>1.0</version>
-		</dependency> -->
+		</dependency>
 		<!--<dependency>
 			<groupId>mit</groupId>
 			<artifactId>mit</artifactId>
