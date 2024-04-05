@@ -5,15 +5,12 @@ phases:
     runtime-versions:
       java: corretto17
       nodejs: 18
-
-  pre_build:
+            
+  build:
     commands:
       - cd s30project                  
       - mvn clean install             
-      - cd ../fitnessapp             
-
-  build:
-    commands:
+      - cd ../fitnessapp     
       - npm install                  
       - npm run build                 
   post_build:
