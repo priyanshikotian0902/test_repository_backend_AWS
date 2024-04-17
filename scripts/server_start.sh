@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
 cd /home/ec2-user/server
-sudo java -jar *.jar 
-# cd /home/ec2-user/server/fitnessapp/build
-# sudo npm start
+sudo java -jar -Dserver.port=80 *.jar > /dev/null 2> /dev/null < /dev/null &
