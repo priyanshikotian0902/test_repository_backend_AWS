@@ -13,9 +13,6 @@ permissions:
 
 hooks:
   BeforeInstall:
-    - location: frontend_build.sh
-      timeout: 300
-      runas: ec2-user
     - location: server_clear.sh
       timeout: 300
       runas: ec2-user
