@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "http://13.235.71.167:3000")
+@CrossOrigin(origins = "http://frontend-19-04-2024.s3-website.ap-south-1.amazonaws.com")
 public class UserplanController {
 
     @Autowired
