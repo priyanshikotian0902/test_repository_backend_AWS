@@ -10,7 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "http://frontend-19-04-2024.s3-website.ap-south-1.amazonaws.com")
+@CrossOrigin(origins = "http://frontend-21-04-24.s3-website.ap-south-1.amazonaws.com/")
 public class BmiController {
 
     @Autowired
